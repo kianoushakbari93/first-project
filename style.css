@@ -59,41 +59,43 @@ img {
     background-color: rgb(177, 218, 249);
     margin-left: 100px;
     margin-right: 100px;
-    align-items: center;
+    align-items: flex;
     
 
 }
 
 .inspara1 {
+    display: flex;
     text-align: center;
     border-right: 5px black;
     border-right-style: dotted;
     border-right-width: 5px;
     align-items: center;
-    padding-right: 2px;
+    padding-right: 10px;
     padding-bottom: 20px;
     justify-content: space-around;
     text-align: center;
+    flex-direction: column;
 }
 
 .act {
-    display: flex;
-    flex-direction: column;
-
+    align-items: flex-start;
 }
-button {
-    background-color: rgb(120, 120, 255);
-    color: aliceblue;
+a {
+    color: rgb(0, 0, 0);
     width: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-radius: 3px;
-    border-style: hidden;
+    background-color: rgb(214, 214, 244);
+    border-style:none;
+    padding: 5px 10px 5px 10px;
     transition: 0.8s;
+    text-decoration: none;
+    text-decoration-color: aliceblue;
 }
 
-button:hover {
-    cursor: pointer;
+a:hover {
+    border-style:none;
+    border-radius: 3px;
     background-color: rgb(230, 130, 0);
     opacity: 0.4;
     box-shadow: 3px 6px 7px black;
@@ -139,6 +141,13 @@ h2 {
     }
     h2 {
         text-align: center;
+    }
+    .inspara1 {
+        border-right-style: none;
+        border-bottom-style: dotted;
+        border-bottom-color: black;
+        border-bottom-width: 5px;
+        margin-right: 5px;
     }
 
 }
