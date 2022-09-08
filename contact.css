@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    border: dotted navy 2px;
+    border-radius: 3px;
+}
+
+.button {
+    border: none;
+    background-color: paleturquoise;
+    height: 30px;
+    width: 100px;
+    transition: 0.5s;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgb(246, 191, 124);
+    box-shadow: 3px 6px 7px black;
+    color: black;
+}
+textarea {
+    border: dotted navy 2px;
+    border-radius: 3px;
+}
+
+footer {
+    margin-top: 30px;
+}
+a {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    border-radius: 3px;
+    background-color: rgb(214, 214, 244);
+    border-style:none;
+    padding: 5px 10px 5px 10px;
+    transition: 0.8s;
+    text-decoration: none;
+    text-decoration-color: aliceblue;
+}
+a:hover{
+    border-style:none;
+    border-radius: 3px;
+    background-color: rgb(230, 130, 0);
+    /* opacity: 0.4; */
+    box-shadow: 3px 6px 7px black;
+    color: black;
+}
