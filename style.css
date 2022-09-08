@@ -7,6 +7,12 @@ body {
     justify-content: space-around;
 
 }
+
+.main {
+    max-width: 1430px;
+    margin: 0 auto;
+    
+}
 h1{
     text-align: center;
     background-color: rgb(199, 252, 250);
