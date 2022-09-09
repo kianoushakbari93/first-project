@@ -1,3 +1,29 @@
+html {
+    background-color: rgb(0, 2, 8);
+}
+header{
+    text-align: center;
+    background-color: rgb(9, 78, 75);
+    border: 5px;
+    border-style: initial;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-width: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    height: 100px;
+    color: azure;
+    border-radius: 20px;
+    padding-top: 10px;
+
+}
+.header2 {
+    color: white;
+}
+main {
+    color: white;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -49,4 +75,11 @@ a:hover{
     /* opacity: 0.4; */
     box-shadow: 3px 6px 7px black;
     color: black;
+}
+
+@media only screen and (max-width: 880px) {
+    header{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }

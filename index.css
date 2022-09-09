@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
 }
 header{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(9, 78, 75);
     border: 5px;
@@ -30,6 +31,7 @@ header{
 
 }
 .nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
@@ -70,8 +72,6 @@ img {
     margin-left: 100px;
     margin-right: 100px;
     align-items: flex;
-    
-
 }
 
 .inspara1 {
@@ -112,9 +112,7 @@ a:hover {
     border-radius: 3px;
     background-color: rgb(230, 130, 0);
     box-shadow: 3px 6px 7px black;
-    color: black;
-    
-    
+    color: black;  
 }
 
 
@@ -122,9 +120,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
 h2 {
     text-align: center;
 }
+
 .cat1 {
     border-color: blue;
     border-style: double;
@@ -135,6 +135,10 @@ h2 {
 #para2 {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-family: "Brush Script MT";
+    font-size: larger;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer {
@@ -147,7 +151,7 @@ h2 {
     margin-left: 100px;
     margin-right: 100px;
     background-color: rgb(0, 38, 67);
-
+    margin-bottom: 50px;
 }
 @media only screen and (max-width: 880px) {
     header{
