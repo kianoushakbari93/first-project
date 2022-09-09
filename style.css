@@ -117,6 +117,9 @@ a:hover {
     color: black;  
 }
 
+.vidlink{
+    display: none;
+}
 
 .center {
     margin-left: auto;
@@ -269,5 +272,14 @@ textarea {
     }
     header {
         font-size: smaller;
+    }
+    .video {
+        display: none;
+    }
+    .vidlink {
+        display: block;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
     }
 }
