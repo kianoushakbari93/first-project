@@ -280,6 +280,10 @@ img {
   display: flex;
   flex-direction: row;
 }
+.augall{
+  padding: 6px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 880px) {
   header {
